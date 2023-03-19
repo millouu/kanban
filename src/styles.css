@@ -4,10 +4,7 @@ html,
 body {
   height: 100%;
 }
-@font-face {
-  font-family: "Headings";
-  src: url("/src/assets/Caramel\ Sweets.ttf");
-}
+
 body {
   margin: 0;
   /* font-family: Roboto, "Helvetica Neue", sans-serif; */

@@ -1,6 +1,13 @@
 <mat-toolbar color="primary" style="font-family: 'Headings'">
   <span>Kanban</span>
 </mat-toolbar>
+
+<div class="content-wrapper">
+  <button (click)="newTask()" mat-button>
+    <mat-icon>add</mat-icon> Add Task
+  </button>
+</div>
+
 <!-- <app-task *ngFor="let task of todo" [task]="task"></app-task> -->
 <div class="content-wrapper">
   <div class="container-wrapper">
